@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html, body, svg {
 	padding:0;
 	margin:0;
 	font-family: Liberation sans, sans-serif;
+	background:white;
 }
 
 #canvas {
@@ -266,4 +269,61 @@ circle.opcursor {
 	label.tool-name[for=chooseColor] {
 		line-height: 10px;
 	}
+}
+
+
+#tools .tool
+{
+	display: inline-block;
+    position: relative;
+	margin-right: 10px;
+	margin-top: 0;
+	height: 40px;
+	overflow: unset;
+	outline: none;
+}
+
+#tools .tool-name
+{
+	display: none;
+	margin: 0;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+	top: 30px;
+	font-family: Roboto, sans-serif;
+
+}
+
+#tools .tool:hover .tool-name
+{
+	display: block;
+}
+
+
+#tools .tools
+{
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+
+#tools
+{
+	margin-top: 0;
+}
+
+#settings
+{
+	margin-top: 25px;
+}
+
+#settings .tool-name
+{
+	 font-size: 15px;
+	 font-family: Roboto, sans-serif;
+}
+
+#settings .tool-name.slider
+{
+	font-size: 15px;
 }

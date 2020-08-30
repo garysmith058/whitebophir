@@ -15,6 +15,7 @@ body {
 	min-height: 100%;
 	margin: 0;
 	width: 100%;
+	background:white;
 }
 
 header {
@@ -46,7 +47,7 @@ main {
 	transition:.1s;
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: space-around; 
+	justify-content: space-around;
 }
 
 #description{
