@@ -193,6 +193,11 @@ html, body, svg {
 
 }
 
+#settings .tool-name.color
+{
+	color: red;
+}
+
 input {
 	font-size:16px;
 }
@@ -212,6 +217,8 @@ input {
 	margin-right: 20px;
 	vertical-align: top;
 	display: inline-block;
+
+	max-width: calc(100vw - 150px);
 }
 
 .colorPresetButton {
@@ -281,6 +288,7 @@ circle.opcursor {
 	height: 40px;
 	overflow: unset;
 	outline: none;
+	margin-bottom: 20px;
 }
 
 #tools .tool-name
